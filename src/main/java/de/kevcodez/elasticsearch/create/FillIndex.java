@@ -29,7 +29,7 @@ public class FillIndex {
     private static final int NUM_PRODUCTS = 50;
     private static final int NUM_ORDERS = 10000;
 
-    private DataGenerator dataGenerator = new DataGenerator();
+    private static DataGenerator dataGenerator = new DataGenerator();
 
     public static void main(String[] args) {
         dataGenerator.createRandomCustomers(NUM_CUSTOMERS);
